@@ -1,0 +1,23 @@
+
+**This readme file provides the method of simulation of this project FinalPhase. The steps of simulating 
+the technical components are as follows:**
+
+1. First import finalPhase file to Omnet++ simulator .
+2. Once imported right click on FinalPhase and from drop down menu click Properties.
+3. Inside properties click on project references and click on inet to add to this project.
+4. Go to source folder and click on package.ned. This file contains the tolpology used
+for the project.
+5. Click on Omnetpp.ini file. This file contains all the code for running different apps
+and queuing models.
+6. Now to run the project right click on FinalPhase, a dropdown menu appears and click on 
+Build Project.
+7. As the project is build right click on Omnetpp.ini, a dropdown menu appears and click on Run as 
+1 Omnet++ simulation.
+8. Once the topology is simulated the results get saved in the results folder.
+9. Now to see the results click on results folder and then double click on vec or sca files 
+that are already created.
+10. Now a .anf file will be created in src folder and results can be seen by clicking on 
+.anf file.
+
+Thank you
+Ammar Amin
